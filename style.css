@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    display: flex;
+    gap: 30px;
+
+}
+
+.container{
+    min-width: 350px;
+    padding: 10px;
+    background-color: white;
+}
+
+.sub-plan{
+    background-color: rgb(255, 112, 112);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sub-price{
+    text-align: center;
+}
+
+.but{
+    text-align: center;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width:1200px){
+    .con{
+        flex-direction: column;
+    }
+}
